@@ -21,4 +21,4 @@ An Easy-to-Use GLPK Interface for General-Dimension Linear Programming.
 
 # Misc
 
-GLPK is recommended for __median or large d__, i.e., the dimension of decision variable. For small dimension (d<=10), algs that enjoy linear complexity O(m) are better.
+GLPK is recommended for __median or large d__, i.e., the dimension of decision variable. For small dimension (d<=10), it is recommended to use [SDLP](https://github.com/ZJU-FAST-Lab/SDLP) or any other alg that enjoys linear complexity O(m) are better.

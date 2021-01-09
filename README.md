@@ -1,6 +1,6 @@
 # GLPK_Interface
 
-A Simple Interface for GLPK, a Linear Programming Solver for general dimensions.
+An Easy-to-Use GLPK Interface for General-Dimension Linear Programming.
 
 # Description
 

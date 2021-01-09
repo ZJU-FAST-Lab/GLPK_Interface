@@ -10,8 +10,7 @@ An Easy-to-Use GLPK Interface for General-Dimension Linear Programming.
                 c: d*1 objective coeffs
                 A: m*d constraint matrix
                 b: m*1 constraint bound
-                ipm: use interior point method
-                     or simplex method
+                ipm: use interior point method or simplex method
                 verbose: show details
         output:
                 x: d*1 decision variables

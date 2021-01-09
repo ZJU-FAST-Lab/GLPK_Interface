@@ -2,7 +2,6 @@
 A Simple Interface for GLPK, a Linear Programming Solver for general dimensions.
 
 # Description
-
 linprog:
         min cTx s.t. Ax<=b
 input:

@@ -1,7 +1,9 @@
 # GLPK_Interface
+
 A Simple Interface for GLPK, a Linear Programming Solver for general dimensions.
 
 # Description
+
         linprog:
                 min cTx s.t. Ax<=b
         input:
@@ -19,6 +21,5 @@ A Simple Interface for GLPK, a Linear Programming Solver for general dimensions.
                 real: minimum objective function
 
 # Misc
-GLPK is recommended when d the dimension of decision variable has median or 
-large size. For small fixed dimension, algs that enjoy linear complexity O(m) 
-are better.
+
+GLPK is recommended for __median or large d__, i.e., the dimension of decision variable. For small dimension (d<=10), algs that enjoy linear complexity O(m) are better.

@@ -11,13 +11,13 @@ A Simple Interface for GLPK, a Linear Programming Solver for general dimensions.
                 A: m*d constraint matrix
                 b: m*1 constraint bound
                 ipm: use interior point method
-                or simplex method
+                     or simplex method
                 verbose: show details
         output:
                 x: d*1 decision variables
         return:
                 inf: No feasible solution or fail
-        -inf: Unbounded problem
+                -inf: Unbounded problem
                 real: minimum objective function
 
 # Misc
